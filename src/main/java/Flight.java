@@ -1,10 +1,3 @@
-package flight;
-
-import plane.Passenger;
-import plane.Plane;
-import plane.flightCrew.CabinCrewMember;
-import plane.flightCrew.Pilot;
-
 import java.util.ArrayList;
 
 public class Flight {

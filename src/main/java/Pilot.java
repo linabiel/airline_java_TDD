@@ -1,5 +1,3 @@
-package plane.flightCrew;
-
 public class Pilot extends FlightCrew {
 
     public Pilot(String name, String rank) {

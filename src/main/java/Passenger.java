@@ -1,5 +1,3 @@
-package plane;
-
 public class Passenger {
 
     private String name;

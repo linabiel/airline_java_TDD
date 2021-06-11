@@ -1,5 +1,3 @@
-package plane.flightCrew;
-
 public abstract class FlightCrew {
 
     private String name;
