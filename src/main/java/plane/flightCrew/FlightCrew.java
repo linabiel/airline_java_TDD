@@ -9,4 +9,16 @@ public abstract class FlightCrew {
         this.name = name;
         this.rank = rank;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getRank() {
+        return rank;
+    }
+
+    public void setRank(String rank) {
+        this.rank = rank;
+    }
 }
