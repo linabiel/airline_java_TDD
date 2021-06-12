@@ -9,17 +9,22 @@ public class PilotTest {
 
     @Before
     public void before() {
-        pilot = new Pilot("John", "Captain");
+        pilot = new Pilot("Arnold Schwarzenegger", "Captain", "J1");
     }
 
     @Test
     public void canGetName() {
-        assertEquals("John", pilot.getName());
+        assertEquals("Arnold Schwarzenegger", pilot.getName());
     }
 
     @Test
     public void canChangeRank() {
         pilot.setRank("First Officer");
         assertEquals("First Officer", pilot.getRank());
+    }
+
+    @Test
+    public void getLicenceNumber() {
+        assertEquals("J1", pilot.getLicenceNumber());
     }
 }

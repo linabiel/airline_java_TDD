@@ -1,6 +1,13 @@
 public class Pilot extends FlightCrew {
 
-    public Pilot(String name, String rank) {
+    private String licenceNumber;
+
+    public Pilot(String name, String rank, String licenceNumber) {
         super(name, rank);
+        this.licenceNumber = licenceNumber;
+    }
+
+    public String getLicenceNumber() {
+        return licenceNumber;
     }
 }
